@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(67, 71, 78);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container* {
+  margin: 10px;
+}
+
+.container__circle {
+  position: absolute;
+  left: -50px;
+  top: -10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(238, 44, 10);
+}
+
+.container__top {
+  margin-bottom: 50px;
+}
+.container__top h1 {
+  color: white;
+  position: relative;
+  font-weight: myFontWeight(bolder);
+}
+
+.heading {
+  background-color: transparent;
+  right: 2rem;
+  bottom: 0.3rem;
+}
+
+.heading__small {
+  font-weight: myFontWeight(900);
+  right: 2rem;
+}
+
+.normal-text, .heading__small {
+  font-size: 1rem;
+}
+
+.form__row {
+  padding: 30px 0px;
+}
+
+.form_row_first > * {
+  margin-right: 10px;
+}
+
+.form__row__data > * {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.user__contact, .button, .form__row {
+  display: flex;
+}
+
+.form__row__second > * {
+  height: 70px;
+}
+
+input, select, button {
+  font-size: 1.4rem;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 3px solid gray;
+  height: 4rem;
+}
+
+.user__resume {
+  border: 3px dotted gray;
+  padding: auto;
+  height: 8rem;
+  color: transparent;
+  border-radius: 2%;
+}
+
+.button {
+  justify-content: flex-end;
+  margin-right: 10px;
+}/*# sourceMappingURL=main.css.map */

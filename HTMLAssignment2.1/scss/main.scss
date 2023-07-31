@@ -1,0 +1,131 @@
+@import "partials/colors";
+@import "partials/font";
+
+
+@mixin myFontWeight($value){
+ font-weight: $value;
+}
+
+@mixin Position($value){
+    position:$value;
+}
+
+@mixin myHeight($value){
+    height:$value;
+}
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: $background_color;
+    font-family: $myFont;
+
+}
+
+
+
+.container{
+    @include Position(absolute);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   &* {
+        margin: 10px;
+    }
+}
+
+
+.container__circle{
+    @include Position(absolute);
+    left: -50px;
+    top: -10px;
+    width: 100px;
+    @include myHeight(100px);
+    border-radius: 50%;
+    background-color: $circleColor;
+}
+
+
+
+
+.container__top {
+    margin-bottom: 50px;
+
+ h1{
+    color: $W;
+    @include Position(relative);
+    font-weight: myFontWeight(bolder);
+}
+
+}
+
+
+.heading{
+    background-color: transparent;
+   right:2rem;
+    bottom:0.3rem;
+    
+}
+
+.heading__small{
+    @extend .normal-text;
+   font-weight: myFontWeight(900);
+    right:2rem;
+}
+
+.normal-text{
+    font-size: 1rem;
+}
+
+
+.form__row{
+    @extend .user__contact;
+    padding: 30px 0px
+}
+
+.form_row_first > *{
+    margin-right: 10px;
+}
+
+.form__row__data > *{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.user__contact{
+    display: flex;
+}
+
+.form__row__second > * {
+    @include myHeight(70px);
+}
+
+input, select , button{
+    font-size: 1.4rem;
+    color: $W;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border:3px solid $G;
+    @include myHeight(4rem);
+}
+
+.user__resume{
+    border: 3px dotted $G;
+    padding: auto;
+    @include myHeight(8rem);
+    color:transparent;
+    border-radius:2%;
+}
+
+.button{
+    @extend .user__contact;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+}
