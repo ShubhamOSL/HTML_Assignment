@@ -1,0 +1,83 @@
+.sub-massive {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.large {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.main_container .content .content-text .content-text-row .content-text-row-card .content-text-row-card-sub-card {
+  width: 200px;
+  text-align: center;
+  aspect-ratio: 1/1;
+}
+
+.hollow-text {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+.stroke-white {
+  -webkit-text-stroke-color: white;
+}
+
+.text {
+  font-size: 2.3rem;
+}
+
+.main_container .content .content-text .content-text-row {
+  display: flex;
+  justify-content: center;
+}
+
+.topic {
+  font-size: 1.2rem;
+}
+
+.shape {
+  margin: 5px;
+  position: absolute;
+}
+
+.data {
+  position: relative;
+}
+
+.yellow-text {
+  color: #FAAF41;
+}
+
+.before-line {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.color-border-blue:before {
+  border-color: #3787C8 !important;
+}
+
+.before-line:before {
+  content: "";
+  border-bottom: 2px solid #E14B32;
+  padding-left: 100px;
+  margin: 0.5em;
+  float: left;
+}
+
+.is-before-float-right:before {
+  float: right;
+}
+
+.question:after {
+  content: " ";
+  height: 0.2rem;
+  width: 6rem;
+  background: #E14B32;
+  display: block;
+  position: absolute;
+  top: 63%;
+  left: 60rem;
+}/*# sourceMappingURL=section4.css.map */

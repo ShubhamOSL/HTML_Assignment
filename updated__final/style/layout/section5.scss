@@ -1,0 +1,86 @@
+@import "../base/typography";
+@import "../base/variables";
+@import "../base/mixin";
+@import "../layout/header";
+@import "../layout/footer";
+
+
+
+.circle {
+    position: absolute;
+    display: inline-block;
+    min-height: 100px;
+    max-height: 100px;
+    top: -50px;
+    left: -50px;
+    aspect-ratio: 1/1;
+    background-color: $red;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  .mix__color {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(45deg, $red, $blue);
+    
+  }
+  
+  .bg-yellowish {
+    background-color: $yellow;
+  }
+  
+  .bg-off-grey {
+    background-color: #555F64;
+  }
+  
+  .border-bluish {
+    border-color: $blue;
+  }
+  
+  .shape1 {
+    top: 30%; right: 20%; z-index: -1;
+    border-left: 20px solid #FAAF40;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #FAAF40;
+    border-top: 20px solid transparent;
+  }
+
+  .shape-lower-triangle1 {
+    border-left: 20px solid $blue;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid $blue;
+    border-top: 20px solid transparent;
+    margin-top:100px;
+  }
+
+
+
+
+  
+
+  
+ 
+  .box {
+    position: relative;
+    display: inline-block;
+    min-height: 40px;
+    max-height: 40px;
+    aspect-ratio: 1/1;
+    background-color: $red;
+    bottom: 15%; right: 30%;
+  }
+  
+  .box:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    border-left: 3px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+
+  .last__white{
+    color:white;
+  }

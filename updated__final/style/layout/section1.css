@@ -1,0 +1,41 @@
+.ray {
+  height: 0.2rem;
+  width: 2rem;
+  background: #E14B32;
+  display: block;
+  position: absolute;
+  margin-top: 0.5rem;
+  right: 13rem;
+}
+
+.middle {
+  position: relative;
+  left: 45rem;
+  top: 25rem;
+}
+
+.firstcount {
+  color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.pagecount {
+  color: gray;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.blue__text {
+  color: #3787C8;
+}
+
+.bg__white {
+  background-color: #EBF0F0;
+  color: black;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=section1.css.map */

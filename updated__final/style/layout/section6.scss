@@ -1,0 +1,92 @@
+
+@import "../base/typography";
+@import "../base/variables";
+@import "../base/mixin";
+@import "../layout/header";
+@import "../layout/footer";
+
+
+
+.last__white{
+    color:white;
+  }
+
+  input{
+    border:1px solid #555F64;
+  }
+
+
+
+  .shape-square-line-inmiddle1 {
+    position: relative;
+    display: inline-block;
+    min-height: 40px;
+    max-height: 40px;
+    aspect-ratio: 1/1;
+    background-color: $red;
+  }
+  
+  .shape-square-line-inmiddle1:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    border-left: 3px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+
+
+  
+  .header {
+   
+    @include display;
+  }
+  .header .logo img {
+    
+    @include headerlogo;
+  }
+  .header .navigation {
+    display: flex;
+  }
+  .header .navigation .navigation__element {
+    @include navdisplay;
+  }
+  
+  .check {
+    position: relative;
+  }
+  
+  .acheck {
+    position: absolute;
+  }
+  
+  .is-column-flex {
+    @include alignment;
+  }
+  
+  .is-float-right {
+    float: right;
+  }
+  
+  .red__heading {
+    color: $red;
+  }
+  
+  .bg__black{
+    background-color: #232526;
+  }
+  
+  .color-yellowish {
+    color: $yellow;
+  }
+  
+  .color-bluish {
+    color: $blue;
+  }
+  
+  .font-white {
+    color: white !important;
+  }
+  

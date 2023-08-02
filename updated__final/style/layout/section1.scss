@@ -1,0 +1,57 @@
+@import "../base/typography";
+@import "../base/variables";
+@import "../base/mixin";
+@import "../layout/header";
+@import "../layout/footer";
+
+.ray{
+    height: 0.2rem;
+    width: 2rem;
+    background:$red;
+    display: block;
+    position: absolute;
+    margin-top:0.5rem;
+    right:13rem;
+    
+  }
+
+
+
+
+.middle{
+  position: relative;
+  left:45rem;
+  top:25rem;
+}
+
+
+.firstcount{
+  color:white;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+  .pagecount{
+    color:gray;
+    margin-left:2rem;
+    margin-right:2rem;
+
+  }
+
+
+  .blue__text{
+    color:$blue;
+  }
+
+
+
+  .bg__white {
+    background-color: #EBF0F0;
+    color: black;
+  }
+  
+  .bg-white {
+    background-color: white;
+    color: black;
+  }
+

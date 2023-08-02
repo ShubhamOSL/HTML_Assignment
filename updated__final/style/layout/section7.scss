@@ -1,0 +1,95 @@
+@import "../base/typography";
+@import "../base/variables";
+@import "../base/mixin";
+@import "../layout/header";
+@import "../layout/footer";
+
+
+
+
+
+.std-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $yellow;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    width: fit-content;
+    align-self: center;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .form-row {
+    display: flex;
+    padding: 10px 0px 0px 0px;
+  }
+  
+  .form-row > * {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 5px;
+  }
+  
+  .spaced-between {
+    justify-content: space-between;
+  }
+  
+  .form-contact-field {
+    display: flex;
+  }
+  
+  .form-contact-field input {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-left: 5px;
+  }
+  
+  .form-big-row {
+    height: 100px;
+  }
+  
+  select, input {
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    font-size: 1.2rem;
+  }
+  
+  .resume-field {
+    border: 1px solid white;
+    line-height: 4rem;
+    padding: 0px 0px 0px 10px;
+  }
+  
+  .resume-field::file-selector-button {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    width: 20%;
+    background-color: rgb(81, 85, 92);
+    color: white;
+    border-left: 1px solid white;
+  }
+  
+  .trademark {
+    position: absolute;
+    transform-origin: bottom left;
+    transform: translate(130%, 0px) rotate(-90deg);
+    bottom: 0px;
+    right: 0px;
+    white-space: nowrap;
+  }
+  
+  .padded5 {
+    padding: 5px;
+  }
+  
+  .footer {
+
+    @include footerview;
+  }
+  
