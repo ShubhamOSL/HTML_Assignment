@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+.logo{
+    float:left;
+    margin-left:1rem;
+    color:white;
+    font-size:2rem;
+    font-weight:bolder;
+}
+
+.dot{
+    color:greenyellow;
+}
+
+
+.gallery{
+    float:right;
+    color:greenyellow;
+    margin-right:2rem;
+}
+
+header{
+    margin-top:3rem;
+}
+
+.menu{
+    height:2rem;
+    width:2em;
+}
+
+
+.small__heading{
+    margin-top:10rem;
+    margin-left:10rem;
+    color:gray;
+}
+
+
+.big__heading{
+    margin-left:10rem;
+    color:white;
+    margin-top:1rem;
+    font-size:5.5em;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.center__container{
+    width:80rem;
+    float:left;
+}
+
+
+.right__container{
+    float:right;
+    margin-top:13rem;
+    margin-right:1rem;
+    width:4rem;
+}
+
+.fbimgae{
+    width:3rem;
+    margin-top:0.5rem;
+}
+
+.main__container{
+    position:relative;
+}
+
+
+.button__section{
+    position:absolute;
+    margin-top:45rem;
+    margin-left:18rem;
+
+
+}
+
+.left__button{
+    position:absolute;
+    width:10rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-right:10rem;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+}
+
+.right__button{
+    position:relative;
+    width:10rem;
+    height:3rem;
+    margin-top:1rem;
+
+    margin-left:13rem;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+}
+
+@media only screen and (max-width: 1480px) {
+
+
+
+  
+
+
+.big__heading{
+    margin-left:10rem;
+    color:white;
+    margin-top:1rem;
+    font-size:2em;
+    font-family: 'Montserrat', sans-serif;
+    width:40rem;
+
+
+
+}
+
+
+
+
+.right__container{
+    float:right;
+    margin-top:0rem;
+    margin-right:1rem;
+    width:4rem;
+}
+
+
+}
+
+@media only screen and (max-width: 815px) {
+
+
+
+    .big__heading{
+        margin-left:10rem;
+        color:white;
+        margin-top:1rem;
+        font-size:2rem;
+        font-family: 'Montserrat', sans-serif;
+        width:25rem;
+    
+    
+    
+    }
+
+
+    .button__section{
+        position:absolute;
+        margin-top:45rem;
+        margin-left:10rem;
+    
+    
+    }
+
+    
+    
+
+
+}
+@media only screen and (max-width: 560px) {
+
+
+    .big__heading{
+        margin-left:10rem;
+        color:white;
+        margin-top:1rem;
+        font-size:2rem;
+        font-family: 'Montserrat', sans-serif;
+        width:10rem;
+    
+    
+    
+    }
+
+    
+
+
+    .right__container{
+        display:none;
+    }
+
+
+    .button__section{
+        position:absolute;
+        margin-top:45rem;
+        margin-left:1rem;
+    
+    
+    }
+
+
+
+.left__button{
+    position:absolute;
+    width:7rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-right:10rem;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+}
+
+.right__button{
+    position:relative;
+    width:7rem;
+    height:3rem;
+    margin-top:1rem;
+
+    margin-left:13rem;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+}
+
+    
+
+    
+}
